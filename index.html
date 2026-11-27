@@ -361,8 +361,10 @@ const AR=[722/280,234/150,234/150,234/150];
    Telegram Bot Token & AI API key disimpan sebagai Environment Variables
    di Vercel (dipakai oleh /api/telegram-send dan /api/ai-extract) —
    JANGAN letak di sini. */
-const SUPABASE_URL='https://YOUR-PROJECT.supabase.co';
-const SUPABASE_ANON_KEY='YOUR-ANON-KEY';
+// URL projek SAHAJA (tanpa /rest/v1/ — supabase-js tambah laluan itu sendiri)
+const SUPABASE_URL='https://iltqnzdzjzmtwfepkbjj.supabase.co';
+const SUPABASE_KEY='sb_publishable_axK4jugVUgaT-rByicArLg_F1djuhZK'; // publishable key (selamat didedahkan)
+const SUPABASE_ANON_KEY=SUPABASE_KEY;
 const BUCKET='opr-files';
 /* ======================================================== */
 const FN=n=>`/api/${n}`; // Vercel API Routes (folder /api)

@@ -1,0 +1,8 @@
+{
+  "name": "opr-idexs-generator",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "OPR IDEXS GENERATOR – SM Imtiaz YT Dungun (static index.html + Vercel API Routes)",
+  "engines": { "node": ">=20" }
+}
